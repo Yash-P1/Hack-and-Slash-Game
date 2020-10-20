@@ -13,6 +13,11 @@ public class ThirdPersonMovement : MonoBehaviour
     // reference animator
     public Animator animator;
 
+    void Start()
+    {
+        //controller = GetComponent<CharacterController>();
+    }
+
     // Update is called once per frame
     void Update()
     {
