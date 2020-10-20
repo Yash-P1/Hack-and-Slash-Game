@@ -1,0 +1,23 @@
+Polylabs LLC
+------------
+Easy Grass Substance
+------------
+Version 1.0.1
+
+
+Parameters:
+
+Zoom: Use this slider to increase or decrease the scope of the grass rendering.
+
+Grass Thickness: Use this slider to increase or decrease the volume of grass per unit on the substance.
+
+Grass Color: Select which grass type you wish to use whether it is Normal grass, Dry Grass, or a Custom Grass color of your choice.
+
+Custom Color: The RGB color selector that makes itself available when Custom Color has been selected on the Grass Color Parameter. 
+
+
+General note:
+    - If the texture looks blurry when viewed at shallow angles (such as floors or ground), turn up the aniso level of the supplied textures.
+        (This comes at a slight performance cost, though!)
+
+If you have questions or concerns, feel free to contact us at support@polylabs.co and we'll be there to help!
