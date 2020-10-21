@@ -9,7 +9,6 @@ public class Movement : MonoBehaviour
     public Animator animator;
 
     private NavMeshAgent navMesh;
-
     private bool moving = false;
 
     private string groundTag = "Ground";
@@ -42,6 +41,11 @@ public class Movement : MonoBehaviour
         else
         {
             moving = true;
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            animator.SetTrigger("attack");
         }
 
         animator.SetBool("moving", moving);

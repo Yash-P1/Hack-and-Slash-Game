@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Goldbloom_behaviour : MonoBehaviour
 {
     private Transform player;
+    public Text questInfo;
     private float dist;
     public float movespeed;
     public float howclose;
@@ -33,6 +35,9 @@ public class Goldbloom_behaviour : MonoBehaviour
             near = false;
         }
         animator.SetBool("isNear", near);
+        if(near){
+            questInfo.text = "Find and kill Goblin.";
+            }
         
 
         //for melee attach or explode
