@@ -14,7 +14,7 @@ public class GoblinBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform; 
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         rig = GetComponent<Rigidbody>();
     }
 
@@ -23,17 +23,21 @@ public class GoblinBehaviour : MonoBehaviour
     {
         dist = Vector3.Distance(player.position, transform.position);
 
-        if(dist <= howclose && dist > 1.5){
+        if (dist <= howclose && dist > 1.5)
+        {
             animator.SetBool("inRange", true);
             Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 2 * Time.deltaTime);
             Vector3 pos = Vector3.MoveTowards(transform.position, player.position, 3f * Time.fixedDeltaTime);
             rig.MovePosition(pos);
-        }else{
+        }
+        else
+        {
             animator.SetBool("inRange", false);
         }
 
-        if(dist < 1.5){
+        if (dist < 1.5)
+        {
             animator.SetTrigger("attack");
         }
     }
