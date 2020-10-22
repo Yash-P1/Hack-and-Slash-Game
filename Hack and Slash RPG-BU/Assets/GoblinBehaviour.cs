@@ -9,8 +9,6 @@ public class GoblinBehaviour : MonoBehaviour
     public float howclose;
 
     public Animator animator;
-
-    private 
     Rigidbody rig;
     private Animator m_animator;
     // Start is called before the first frame update
@@ -32,8 +30,11 @@ public class GoblinBehaviour : MonoBehaviour
             Vector3 pos = Vector3.MoveTowards(transform.position, player.position, 3f * Time.fixedDeltaTime);
             rig.MovePosition(pos);
         }else{
+            animator.SetBool("inRange", false);
+        }
 
-        animator.SetBool("inRange", false);
+        if(dist < 1.5){
+            animator.SetTrigger("attack");
         }
     }
 }
