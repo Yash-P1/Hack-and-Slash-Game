@@ -28,7 +28,9 @@ public class Goldbloom_behaviour : MonoBehaviour
         dist = Vector3.Distance(player.position, transform.position);
 
         if(dist <= howclose){
-            transform.LookAt(player);
+            //transform.LookAt(player);
+            Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 2 * Time.deltaTime);
             //GetComponent<Rigidbody>().AddForce(transform.forward * movespeed);
             near = true;
         }else{
