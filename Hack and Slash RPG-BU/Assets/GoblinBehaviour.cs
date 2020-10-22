@@ -31,14 +31,15 @@ public class GoblinBehaviour : MonoBehaviour
             Vector3 pos = Vector3.MoveTowards(transform.position, player.position, 3f * Time.fixedDeltaTime);
             rig.MovePosition(pos);
         }
-        else
+        else if (dist < 1.5)
         {
+            animator.SetBool("attack", true);
+        }else
+        {
+            animator.SetBool("attack", false);
             animator.SetBool("inRange", false);
         }
 
-        if (dist < 1.5)
-        {
-            animator.SetTrigger("attack");
-        }
+        
     }
 }

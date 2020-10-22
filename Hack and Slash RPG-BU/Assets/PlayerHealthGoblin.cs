@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerHealthGoblin : MonoBehaviour
 {
+    public Text questInfo;
     public float health;
+    public Animator animator;
     public Slider slider;
     // Start is called before the first frame update
     void Start()
@@ -17,12 +19,18 @@ public class PlayerHealthGoblin : MonoBehaviour
     void Update()
     {
         slider.value = health;
+        if(health <= 0){
+            Debug.Log("Dead");
+            animator.SetBool("isDead", true);
+            questInfo.text = "Go to Goldbloom, collect the reward.";
+        }
     }
 
     void OnCollisionEnter(Collision collisionInfo)
     {
         if (collisionInfo.gameObject.tag == "Player")
         {
+            
             health = health - 3f;
         }
     }

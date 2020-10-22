@@ -1401,7 +1401,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000031471, y: 12.5}
+  m_AnchoredPosition: {x: 0.000031471, y: 20.539}
   m_SizeDelta: {x: 143.14896, y: 17.769363}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225440455
@@ -1820,8 +1820,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.08354471, y: 0.04877384, z: 0.6604774}
-  m_Center: {x: -0.0026606072, y: 0.000099908946, z: 0.04618983}
+  m_Size: {x: 0.28755102, y: 0.04877384, z: 1.1395044}
+  m_Center: {x: -0.0030137016, y: 0.00010003357, z: 0.2857032}
 --- !u!1001 &297981070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3220,7 +3220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459691002}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.06, y: 1.08, z: 0}
+  m_LocalPosition: {x: 4.06, y: 1.035, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1833735019}
@@ -4541,7 +4541,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: eea4935bdb1354a6fb5f8d8734c9d61b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67
+      value: 60.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eea4935bdb1354a6fb5f8d8734c9d61b,
         type: 3}
@@ -4551,7 +4551,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: eea4935bdb1354a6fb5f8d8734c9d61b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 44.29
+      value: 24.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eea4935bdb1354a6fb5f8d8734c9d61b,
         type: 3}
@@ -4639,9 +4639,9 @@ MonoBehaviour:
   Name: LORD GOLDBLOOM (press [F] key)
   sentences:
   - Hi, My name is Lord Goldbloom.
-  - 'Glad you make it. I have a task which only you can complete. '
-  - "You have to kill Goblin. \nHis last known location is near parking lot. \nall
-    the best."
+  - 'Glad you made it. I have a task which only you can complete. '
+  - "You have to kill Goblin. \nHis last known location is near  Peter Curry marsh.
+    Kill him and collect the reward from me. all the best."
 --- !u!95 &624292783
 Animator:
   serializedVersion: 3
@@ -5122,7 +5122,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667448161}
-  m_LocalRotation: {x: 0.24310887, y: 0.6640016, z: -0.09954281, w: 0.7000652}
+  m_LocalRotation: {x: 0.24301302, y: 0.6624006, z: -0.09930272, w: 0.70164746}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5191,6 +5191,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3217b1ce4679df94f8c9cd33e8990c0b, type: 3}
+--- !u!4 &682015945 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 572617754110402786, guid: 0d121f8d4fadf44a29bbcca77ecd3bf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1427306151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &686978698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6235,8 +6241,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -81.2, y: -64.6}
-  m_SizeDelta: {x: 143.14899, y: 42.46805}
+  m_AnchoredPosition: {x: -81.2, y: -72.79}
+  m_SizeDelta: {x: 143.14899, y: 58.847076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861114948
 MonoBehaviour:
@@ -6879,12 +6885,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!4 &932167832 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d121f8d4fadf44a29bbcca77ecd3bf3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1427306151}
-  m_PrefabAsset: {fileID: 0}
 --- !u!65 &932167833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6896,8 +6896,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.42786407, y: 1.9721107, z: 0.39772213}
-  m_Center: {x: 0.01367569, y: 0.9664458, z: 0.05192715}
+  m_Size: {x: 0.73851013, y: 1.6231027, z: 0.6665268}
+  m_Center: {x: 0.021469116, y: 1.1479307, z: 0.02003479}
 --- !u!54 &932167834
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6940,7 +6940,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b800cb1576ed4f24cab3f61fa2d7d668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  questInfo: {fileID: 1604985949}
+  health: 30
+  animator: {fileID: 932167831}
   slider: {fileID: 1409974011}
 --- !u!1001 &942662146
 PrefabInstance:
@@ -7183,8 +7185,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.08993864, y: 0.7013637, z: -0.08993864, w: 0.70136374}
-  m_LocalPosition: {x: -15.939999, y: 6.06, z: 0.0000023841858}
+  m_LocalRotation: {x: 0.09014218, y: 0.6997729, z: -0.089734636, w: 0.70295095}
+  m_LocalPosition: {x: -15.939795, y: 6.015, z: -0.090625286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9087,7 +9089,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274426142}
   m_LocalRotation: {x: -0, y: -0, z: 0.10020958, w: 0.9949664}
-  m_LocalPosition: {x: -15.939999, y: 6.06, z: 0.0000023841858}
+  m_LocalPosition: {x: -15.939795, y: 6.015, z: -0.090625286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 667448163}
@@ -10413,17 +10415,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0d121f8d4fadf44a29bbcca77ecd3bf3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.00682
+      value: 97.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d121f8d4fadf44a29bbcca77ecd3bf3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.16
+      value: 0.039
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d121f8d4fadf44a29bbcca77ecd3bf3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.12
+      value: -54
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d121f8d4fadf44a29bbcca77ecd3bf3,
         type: 3}
@@ -11669,8 +11671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.33, y: -5.2693233}
-  m_SizeDelta: {x: 138.48419, y: 17.769363}
+  m_AnchoredPosition: {x: 2.3324, y: -7.9}
+  m_SizeDelta: {x: 138.48419, y: 39.100155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1604985949
 MonoBehaviour:
@@ -12247,7 +12249,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661491987}
-  m_LocalRotation: {x: 0.21748456, y: 0.6728302, z: -0.07545236, w: 0.70306975}
+  m_LocalRotation: {x: 0.21733338, y: 0.67123353, z: -0.075273775, w: 0.7046599}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -13309,8 +13311,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.8759592, z: 1}
-  m_Center: {x: 0, y: 0.91944253, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!195 &1833735022
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13347,22 +13349,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   slider: {fileID: 648908849}
---- !u!54 &1833735024
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833735018}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1835429778
 GameObject:
   m_ObjectHideFlags: 0
@@ -13465,17 +13451,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865695306}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.14}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalRotation: {x: -0.008467835, y: -0.024199668, z: 0.017882688, w: 0.99951136}
+  m_LocalPosition: {x: 0, y: 0, z: 0.123070255}
+  m_LocalScale: {x: 0.010000001, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 1409974009}
-  m_Father: {fileID: 932167832}
-  m_RootOrder: 2
+  m_Father: {fileID: 682015945}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.04, y: 2.24}
+  m_AnchoredPosition: {x: -0.005564619, y: 1.0759888}
   m_SizeDelta: {x: 199.24988, y: 37.157898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865695308
@@ -15048,7 +15034,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129539352}
-  m_LocalRotation: {x: 0.23026899, y: 0.66856277, z: -0.08755027, w: 0.70166594}
+  m_LocalRotation: {x: 0.23014545, y: 0.6669638, z: -0.08734114, w: 0.7032524}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
